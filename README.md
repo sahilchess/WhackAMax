@@ -5,7 +5,8 @@ a whack a mole game but you whack THE MAXSTELLAR instead of moles. made for onek
 
 ---
 ## wut this?
-stelle pop up randomly across the board and you gotta whack them before they duck back down. miss too many and it's game over.
+stelle pop up randomly across the board and you gotta whack them before they duck back down.
+
 ## Features
 * random MAXSTELLAR spawn timing
 * score tracking
