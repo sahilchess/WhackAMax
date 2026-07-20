@@ -1,6 +1,6 @@
 # WhackAStelle
 a whack a mole game but you whack THE STELLE instead of moles. made for onekey.
-### [play here](sahilchess.itch.io/whack-a-max/)
+### [play here](sahilchess.itch.io/whack-a-stelle/)
 
 <img width="25000" height="auto" alt="image" src="https://github.com/user-attachments/assets/bee6d991-5273-4734-852a-1769dcff8c34" />
 
@@ -15,7 +15,7 @@ stelle pop up randomly across the board and you gotta whack them before they duc
 * score tracking
 
 ## How to test it
-1. click the [live demo link](sahilchess.itch.io/whack-a-max/) at the top of this file
+1. click the [live demo link](sahilchess.itch.io/whack-a-stelle/) at the top of this file
 2. click start
 3. whack them stelle moles as they pop up
 4. check your score at the end
