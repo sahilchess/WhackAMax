@@ -1,0 +1,23 @@
+[gd_scene format=3 uid="uid://br2pg4nics5bw"]
+
+[ext_resource type="Script" uid="uid://jb8vta7yopy7" path="res://scripts/godot_mole.gd" id="1_0o2lx"]
+[ext_resource type="Texture2D" uid="uid://cbr72gttaaup0" path="res://assets/stelle.png" id="2_kln4g"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7ouyb"]
+size = Vector2(32, 32)
+
+[node name="Mole" type="Area2D" unique_id=1423262473]
+script = ExtResource("1_0o2lx")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1809965658]
+scale = Vector2(0.061, 0.061)
+texture = ExtResource("2_kln4g")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=790711957]
+shape = SubResource("RectangleShape2D_7ouyb")
+
+[node name="Timer" type="Timer" parent="." unique_id=1875464250]
+
+[connection signal="mouse_entered" from="." to="." method="_on_mouse_entered"]
+[connection signal="mouse_exited" from="." to="." method="_on_mouse_exited"]
+[connection signal="timeout" from="Timer" to="." method="_on_timer_timeout"]
